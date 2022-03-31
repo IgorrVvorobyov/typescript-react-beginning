@@ -26,4 +26,4 @@ function getSortedOccurrences(array: string[]): Occurrence[] {
         ([ str, count ]) => ({ str, count })).sort((a, b) => b.count - a.count || a.str.localeCompare(b.str));
 }
 
-console.log((getSortedOccurrences(['lmn', 'ab', 'a', 'cd', 'lmn', 'cd', 'lmn'])))
+console.log((getSortedOccurrences(['lmn', 'ab', 'a', 'cd', 'lmn', 'cd', 'lmn'])));
